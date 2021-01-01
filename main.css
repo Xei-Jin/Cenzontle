@@ -1,0 +1,180 @@
+
+body {
+color: #fff;
+font-family:Merienda;
+font-size: 15px;
+cursor: url(http://i.imgur.com/GLcEJfz.png),auto;
+
+background:url(https://www.transparenttextures.com/patterns/dark-wood.png) repeat, #290a00; /* Old browsers */
+background:url(https://www.transparenttextures.com/patterns/dark-wood.png) repeat, -moz-linear-gradient(top,  #290a00 0%, #000 100%); /* FF3.6-15 */
+background:url(https://www.transparenttextures.com/patterns/dark-wood.png) repeat, -webkit-linear-gradient(top,  #290a00 0%,#000 100%); /* Chrome10-25,Safari5.1-6 */
+  background-attachment: fixed;
+
+}
+a:link, a:active, a:visited {
+font-family: Merienda;
+color: #fff;
+text-decoration: none;
+font-weight: none;
+-webkit-transition-duration: .50s;
+}
+a:hover {
+color: #333333;
+text-decoration: none;
+}
+
+.sidebar{
+position: fixed; top:0px; left: 0px;
+width: 330px;
+height: 100%;
+padding: 7px;
+border-right: 10px solid #6e2607;
+color: #fff;
+font-size: 15px;
+
+background:url(https://www.transparenttextures.com/patterns/debut-light.png) repeat, #6e5a48; /* Old browsers */
+background:url(https://www.transparenttextures.com/patterns/debut-light.png) repeat, -moz-linear-gradient(top,  #6e5a48 0%, #000 100%); /* FF3.6-15 */
+background:url(https://www.transparenttextures.com/patterns/debut-light.png) repeat, -webkit-linear-gradient(top,  #6e5a48 0%,#000 100%); /* Chrome10-25,Safari5.1-6 */
+  background-attachment: fixed;
+
+}
+
+.content{
+position: absolute; top:0px; left: 350px;
+padding: 30px;
+color: #fff;
+text-align: justify;
+width:70%;
+}
+
+.navi {
+text-transform:uppercase;
+width:130px;
+background:#000;
+color:#fff;
+display: inline-block;
+text-decoration:none;
+text-align:center;
+padding:3px;
+font: 13px Rancho;
+margin-top:5px;
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+border-top-left-radius:6px;
+border-bottom-left-radius:6px;
+-webkit-transition-property:color, text;
+-webkit-transition-duration: .2s;
+-moz-transition-duration: .2s;
+-webkit-transition-timing-function: linear, ease-in;
+-webkit-transition:2s;
+}
+.navi:hover {
+box-shadow:inset -50px -40px 0px black, inset 50px 40px 0px #662900;
+-webkit-transition:1s;
+color:#fff;
+}
+
+.navi2 {
+text-transform:uppercase;
+width:70px;
+height:50px;
+background:#000;
+color:#fff;
+display: inline-block;
+text-decoration:none;
+text-align:center;
+padding:3px;
+margin-top:5px;
+font: 20px Rancho;
+-webkit-transition-property:color, text;
+-webkit-transition-duration: .2s;
+-moz-transition-duration: .2s;
+-webkit-transition-timing-function: linear, ease-in;
+-webkit-transition:2s;
+
+border-radius: 5px;
+}
+.navi2:hover {
+box-shadow:inset -50px -40px 0px black, inset 50px 40px 0px #662900;
+-webkit-transition:1s;
+color:#fff;
+}
+
+.navip {
+text-transform:uppercase;
+width:300px;
+background:#291000;
+color:#fff;
+display: inline-block;
+text-decoration:none;
+text-align:center;
+padding:3px;
+font: 13px Rancho;
+margin-top:5px;
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+border-top-left-radius:6px;
+border-bottom-left-radius:6px;
+-webkit-transition-property:color, text;
+-webkit-transition-duration: .2s;
+-moz-transition-duration: .2s;
+-webkit-transition-timing-function: linear, ease-in;
+-webkit-transition:2s;
+}
+.navip:hover {
+box-shadow:inset -50px -40px 0px black, inset 50px 40px 0px #382300;
+-webkit-transition:1s;
+color:#fff;
+}
+
+@font-face{font-family:star; src:url('http://static.tumblr.com/cpgw3dl/u7dmup8xr/lavanderia_regular.ttf');}
+
+.h2{
+margin-top: 10px;
+margin-bottom: 5px;
+text-align: center;
+border-bottom: 4px double #ddd;
+font: 15pt Merienda;
+letter-spacing: 1px;
+}
+
+@font-face{font-family:star; src:url('http://static.tumblr.com/cpgw3dl/u7dmup8xr/lavanderia_regular.ttf');}
+
+b, strong {
+font-family: Merienda;
+color: #333333;
+}
+i, em {
+font-family: Merienda;
+color: #999999;
+}
+u {
+font-family: Merienda;
+color: #555555;
+border-bottom: 1px solid #DDD;
+}
+
+blockquote {
+background:#fff;
+background-size: 40%;
+color: #444;
+border-left:25px solid #ddd;
+padding:4px;
+}
+blockquote:hover {
+border-left:25px solid #eee;
+}
+
+::selection {
+background-color: #eee;
+color: #000;
+}
+::-moz-selection {
+background-color: #eee;
+color: #000;
+}
+::-webkit-scrollbar {width: 6px; height: 6px; background: #fff; }
+::-webkit-scrollbar-thumb:vertical {background: #eee;}
+fieldset {
+border-radius:10px;
+}
